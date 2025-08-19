@@ -89,5 +89,21 @@ body {
     font-size: 24px;
 }
 
+.home-img img {
+    width: 350px;                
+    height: 350px;               
+    object-fit: cover; 
+    object-position: center bottom;          
+    border-radius: 50%;          /* Make it a circle */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
+    animation-delay: 2s 3s;
+    margin: 0;                   
+    display: block;              
+    padding: 0;                  
+    transform: translateY(-20px);
+}
+
+
 
 
