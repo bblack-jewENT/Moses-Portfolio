@@ -133,6 +133,21 @@ body {
     height: 100%;
 }
 
+.btn {
+    display: inline-block;
+    padding: 12px 28px;
+    margin-top: 15px;
+    background: rgb(44, 148, 67);
+    border-radius: 40px;
+    box-shadow: 0 0 18px rgb(44, 148, 67);
+    font-size: 16px;
+    color: #1f242d;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
 
 
 
