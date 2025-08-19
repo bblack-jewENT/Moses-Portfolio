@@ -104,6 +104,36 @@ body {
     transform: translateY(-20px);
 }
 
+.social-media a {
+    display: inline-flex;
+    justify-content: center;  
+    align-items: center;       
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid rgb(44, 148, 67);
+    border-radius: 50%;
+    font-size: 20px;
+    color: rgb(44, 148, 67);
+    text-decoration: none;
+    margin: 30px 15px 0;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 1s;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 20px rgb(44, 148, 67);
+    animation-delay: calc(.2s * var(--i));
+}
+
+.social-media a i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+
 
 
 
