@@ -6,4 +6,12 @@ let typed = new Typed(".multiple-text", {
     loop: true
 });
 
+// Navbar toggle for mobile
+const menuIcon = document.getElementById('menu-icon');
+const navbar = document.getElementById('navbar');
+
+menuIcon.addEventListener('click', () => {
+    navbar.classList.toggle('active');
+});
+
 
