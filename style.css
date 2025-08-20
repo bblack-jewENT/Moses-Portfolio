@@ -273,9 +273,10 @@ body {
   align-items: center;
   justify-content: center;
   gap: 3rem;
-  padding: 80px 10% 40px 10%;
+  padding: 140px 10% 80px 10%; /* Increased height */
   background: #fff;
   flex-wrap: wrap;
+  min-height: 90vh; /* Add more height */
 }
 
 .about-img {
@@ -330,7 +331,8 @@ body {
     align-items: center;
     text-align: center;
     gap: 2rem;
-    padding: 60px 5% 20px 5%;
+    padding: 80px 5% 40px 5%;
+    min-height: unset;
   }
   .about-img {
     width: 220px;
