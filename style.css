@@ -217,6 +217,9 @@ body {
   .home-content {
     max-width: 100%;
   }
+  .social-media {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 700px) {
@@ -262,6 +265,7 @@ body {
     font-size: 1rem;
   }
 }
+
 
 
 
