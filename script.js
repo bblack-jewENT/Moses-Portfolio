@@ -42,15 +42,16 @@ navLinks.forEach(link => {
     document.body.style.background = this.value;
     // Optionally, update .home and .skills backgrounds for full effect
     document.querySelectorAll('.home, .skills').forEach(el => el.style.background = this.value);
+
+    // Detect dark mode and switch text colors
+    if (this.value === '#222831') {
+      document.body.classList.add('dark-mode');
+    } else {
+      document.body.classList.remove('dark-mode');
+    }
   });
 
-  // Detect dark mode and switch text colors
-  if (this.value === '#222831') {
-    document.body.classList.add('dark-mode');
-  } else {
-    document.body.classList.remove('dark-mode');
-  }
-});
+  
 
 
 
