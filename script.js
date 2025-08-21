@@ -36,4 +36,13 @@ navLinks.forEach(link => {
 });
 });
 
+ // Background color selector logic
+  const bgSelector = document.getElementById('bg-color');
+  bgSelector.addEventListener('change', function() {
+    document.body.style.background = this.value;
+    // Optionally, update .home and .skills backgrounds for full effect
+    document.querySelectorAll('.home, .skills').forEach(el => el.style.background = this.value);
+  });
+
+
 
