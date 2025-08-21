@@ -516,6 +516,13 @@ body.dark-mode .bg-selector select {
   border-color: #444;
 }
 
+body.dark-mode p,
+body.dark-mode .about-content p,
+body.dark-mode .home-content p,
+body.dark-mode .skill-box p {
+  color: #fff !important;
+}
+
 
 
 
