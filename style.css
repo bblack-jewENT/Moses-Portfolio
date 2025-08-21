@@ -41,14 +41,16 @@ body {
   gap: 2rem;
 }
 
+/* Default navbar link color (white text) */
 .navbar a {
-  color: #222;
+  color: #fff;
   text-decoration: none;
   font-size: 1rem;
   position: relative;
   transition: color 0.2s;
 }
 
+/* Highlight on hover/active in default mode */
 .navbar a.active,
 .navbar a:hover {
   color: #007bff;
@@ -172,7 +174,7 @@ body {
     top: 70px;
     right: 0;
     width: 100%;
-    background: #fff;
+    background: #726969;
     flex-direction: column;
     align-items: flex-start;
     gap: 0;
@@ -520,6 +522,30 @@ body.dark-mode p,
 body.dark-mode .about-content p,
 body.dark-mode .home-content p,
 body.dark-mode .skill-box p {
+  color: #fff !important;
+}
+
+body.dark-mode .menu-icon {
+  color: #fff !important; /* White hamburger in dark mode */
+}
+
+/* Navbar link background and text color in dark mode */
+body.dark-mode .navbar a {
+  background: #fff !important;   /* White background for links */
+  color: #222 !important;        /* Black text for links */
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+  transition: background 0.2s, color 0.2s;
+}
+
+body.dark-mode .navbar a.active,
+body.dark-mode .navbar a:hover {
+  background: #00d8ff !important; /* Highlight background */
+  color: #222 !important;         /* Black text */
+}
+
+body.dark-mode .multiple-text {
   color: #fff !important;
 }
 
