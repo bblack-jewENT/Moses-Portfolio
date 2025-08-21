@@ -461,6 +461,64 @@ body {
   color: #222;
 }
 
+/* ...Change text color in dark mode... */
+
+body.dark-mode,
+body.dark-mode .home,
+body.dark-mode .skills,
+body.dark-mode .about {
+  color: #fff;
+  background: #222831 !important;
+}
+
+body.dark-mode .header,
+body.dark-mode .about,
+body.dark-mode .skills,
+body.dark-mode .bg-selector {
+  background: #222831 !important;
+}
+
+body.dark-mode .logo,
+body.dark-mode .navbar a,
+body.dark-mode .about-content h3,
+body.dark-mode .about-content .heading,
+body.dark-mode .skills .heading,
+body.dark-mode .skill-box h3,
+body.dark-mode .skill-box p,
+body.dark-mode .btn,
+body.dark-mode .bg-selector label {
+  color: #fff !important;
+}
+
+body.dark-mode .navbar a.active,
+body.dark-mode .navbar a:hover {
+  color: #00d8ff !important;
+}
+
+body.dark-mode .skill-box {
+  background: #232b36 !important;
+  color: #fff !important;
+}
+
+body.dark-mode .btn {
+  background: #00d8ff !important;
+  color: #222831 !important;
+}
+
+body.dark-mode .btn:hover {
+  background: #fff !important;
+  color: #222831 !important;
+}
+
+body.dark-mode .bg-selector select {
+  background: #232b36 !important;
+  color: #fff !important;
+  border-color: #444;
+}
+
+
+
+
 
 
 
