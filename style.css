@@ -9,7 +9,7 @@
 
 body {
   font-family: 'Segoe UI', Arial, sans-serif;
-  background: #f5f5f5;
+  background: #e3f2fd;
   color: #222;
   min-height: 100vh;
 }
@@ -62,7 +62,7 @@ body {
   gap: 3rem;
   min-height: 100vh;
   padding: 120px 10% 40px 10%;
-  background: #f5f5f5;
+  background: #e3f2fd;
   flex-wrap: wrap;
 }
 
@@ -352,7 +352,7 @@ body {
 
 /* ...Skills section... */
 .skills {
-  background: #f5f5f5;
+  background: #e3f2fd;
   padding: 100px 10% 80px 10%;
   min-height: 70vh;
 }
