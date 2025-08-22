@@ -566,6 +566,24 @@ body.dark-mode .multiple-text {
   color: #007bff;
 }
 
+.portfolio-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.portfolio-box {
+  position: relative;
+  width: 320px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  background: #f5f5f5;
+  transition: transform 0.2s;
+}
+
+
 
 
 
