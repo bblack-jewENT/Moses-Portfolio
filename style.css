@@ -556,6 +556,17 @@ body.dark-mode .multiple-text {
   min-height: 70vh;
 }
 
+.portfolio .heading {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+}
+
+.portfolio .heading span {
+  color: #007bff;
+}
+
+
 
 
 
