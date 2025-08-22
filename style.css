@@ -608,6 +608,15 @@ body.dark-mode .multiple-text {
   text-align: center;
 }
 
+.portfolio-box:hover .portfolio-layer {
+  opacity: 1;
+}
+
+.portfolio-layer h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
 
 
 
