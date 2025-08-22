@@ -617,6 +617,27 @@ body.dark-mode .multiple-text {
   margin-bottom: 0.5rem;
 }
 
+.portfolio-layer p {
+  font-size: 1rem;
+  margin-bottom: 0.7rem;
+}
+
+.portfolio-layer a {
+  color: #fff;
+  font-size: 1.3rem;
+  background: #222831;
+  padding: 0.5rem 0.8rem;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background 0.2s;
+}
+
+.portfolio-layer a:hover {
+  background: #fff;
+  color: #007bff;
+}
+
+
 
 
 
