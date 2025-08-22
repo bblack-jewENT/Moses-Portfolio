@@ -650,6 +650,21 @@ body.dark-mode .multiple-text {
   }
 }
 
+@media (max-width: 600px) {
+  .portfolio {
+    padding: 60px 2% 20px 2%;
+  }
+  .portfolio-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .portfolio-box {
+    width: 100%;
+    max-width: 350px;
+  }
+}
+
+
 
 
 
