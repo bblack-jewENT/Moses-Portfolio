@@ -549,6 +549,13 @@ body.dark-mode .multiple-text {
   color: #fff !important;
 }
 
+/* Portfolio Section */
+.portfolio {
+  background: #fff;
+  padding: 100px 10% 80px 10%;
+  min-height: 70vh;
+}
+
 
 
 
