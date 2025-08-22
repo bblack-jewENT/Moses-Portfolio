@@ -637,6 +637,20 @@ body.dark-mode .multiple-text {
   color: #007bff;
 }
 
+@media (max-width: 900px) {
+  .portfolio {
+    padding: 80px 5% 40px 5%;
+  }
+  .portfolio-container {
+    gap: 1.2rem;
+  }
+  .portfolio-box {
+    width: 100%;
+    max-width: 350px;
+  }
+}
+
+
 
 
 
