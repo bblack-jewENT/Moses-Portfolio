@@ -756,6 +756,17 @@ body.dark-mode .portfolio-layer a:hover {
   min-height: 70vh;
 }
 
+.contact .heading {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+}
+
+.contact .heading span {
+  color: #007bff;
+}
+
+
 
 
 
