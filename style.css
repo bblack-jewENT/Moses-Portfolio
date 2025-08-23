@@ -753,8 +753,8 @@ body.dark-mode .portfolio-layer a:hover {
 /* Contact Section */
 .contact {
   background: #fff;
-  padding: 100px 10% 80px 10%;
-  min-height: 70vh;
+  padding: 140px 10% 100px 10%; 
+  min-height: 90vh;             
 }
 
 .contact .heading {
