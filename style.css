@@ -803,6 +803,12 @@ body.dark-mode .portfolio-layer a:hover {
   outline: none;
 }
 
+.contact-form .btn {
+  align-self: flex-end;
+  padding: 0.7rem 2.2rem;
+  font-size: 1.1rem;
+}
+
 
 
 
