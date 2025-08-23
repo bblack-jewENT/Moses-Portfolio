@@ -198,6 +198,10 @@ body {
   background: #0056b3;
 }
 
+.btn:active {
+  opacity: 0.5;
+}
+
 /* Hamburger menu icon */
 .menu-icon {
   display: none;
@@ -371,6 +375,10 @@ body {
   font-size: 1.1rem;
   color: #444;
   margin-bottom: 2rem;
+}
+
+.about-content a:active {
+  opacity: 0.5;
 }
 
 @media (max-width: 900px) {
@@ -811,6 +819,10 @@ body.dark-mode .portfolio-layer a:hover {
   cursor: pointer;
 }
 
+.contact-form .btn:active {
+  opacity: 0.5;
+}
+
 @media (max-width: 700px) {
   .contact {
     padding: 60px 4% 30px 4%;
@@ -862,6 +874,10 @@ body.dark-mode .contact-form .btn {
 
 body.dark-mode .contact-form .btn:hover {
   opacity: 0.8 !important;
+}
+
+body.dark-mode .contact-form .btn:active {
+  opacity: 0.5 !important;
 }
 
 
