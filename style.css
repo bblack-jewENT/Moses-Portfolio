@@ -30,10 +30,25 @@ body {
 }
 
 .logo {
-  font-size: 2rem;
-  font-weight: bold;
-  color: #222;
+  font-size: 2.1rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: #007bff;
   text-decoration: none;
+  font-family: 'Lato', 'Roboto', Arial, sans-serif;
+  background: linear-gradient(90deg, #007bff 60%, #00d8ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  transition: transform 0.2s, text-shadow 0.2s;
+  text-shadow: 0 2px 8px rgba(0,123,255,0.10);
+  cursor: pointer;
+  display: inline-block;
+}
+
+.logo:hover {
+  transform: scale(1.06) rotate(-2deg);
+  text-shadow: 0 4px 16px rgba(0,123,255,0.18);
 }
 
 .navbar {
