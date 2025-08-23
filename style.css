@@ -549,8 +549,8 @@ body.dark-mode .skill-box {
 }
 
 body.dark-mode .btn {
-  background: #00d8ff !important;
-  color: #222831 !important;
+  background: rgb(1, 55, 73) !important;
+  color: #fff !important;
 }
 
 body.dark-mode .btn:hover {
@@ -577,8 +577,8 @@ body.dark-mode .menu-icon {
 
 /* Navbar link background and text color in dark mode */
 body.dark-mode .navbar a {
-  background: #fff !important;   /* White background for links */
-  color: #222 !important;        /* Black text for links */
+  background: rgb(1, 55, 73) !important;
+  color: #fff !important;
   border-radius: 8px;
   padding: 0.5rem 1rem;
   margin-bottom: 0.5rem;
@@ -587,8 +587,9 @@ body.dark-mode .navbar a {
 
 body.dark-mode .navbar a.active,
 body.dark-mode .navbar a:hover {
-  background: #00d8ff !important; /* Highlight background */
+  background: #2c7a88 !important; /* Highlight background */
   color: #222 !important;         /* Black text */
+  font-weight: bold !important;
 }
 
 body.dark-mode .multiple-text {
@@ -855,8 +856,12 @@ body.dark-mode .contact-form textarea:focus {
 }
 
 body.dark-mode .contact-form .btn {
-  background: #00d8ff !important;
-  color: #222831 !important;
+  background: rgb(1, 55, 73) !important;
+  color: #fff !important;
+}
+
+body.dark-mode .contact-form .btn:hover {
+  opacity: 0.8 !important;
 }
 
 
