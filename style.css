@@ -669,6 +669,40 @@ body.dark-mode .multiple-text {
   }
 }
 
+body.dark-mode .portfolio {
+  background: #222831 !important;
+}
+
+body.dark-mode .portfolio .heading,
+body.dark-mode .portfolio .heading span {
+  color: #fff !important;
+}
+
+body.dark-mode .portfolio-box {
+  background: #232b36 !important;
+  color: #fff !important;
+}
+
+body.dark-mode .portfolio-layer {
+  background: rgba(0, 216, 255, 0.92) !important;
+  color: #222 !important;
+}
+
+body.dark-mode .portfolio-layer h4,
+body.dark-mode .portfolio-layer p {
+  color: #222 !important;
+}
+
+body.dark-mode .portfolio-layer a {
+  background: #fff !important;
+  color: #007bff !important;
+}
+
+body.dark-mode .portfolio-layer a:hover {
+  background: #00d8ff !important;
+  color: #222831 !important;
+}
+
 
 
 
