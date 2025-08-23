@@ -776,6 +776,33 @@ body.dark-mode .portfolio-layer a:hover {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
+}
+
+.contact-form .input-group {
+  display: flex;
+  gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.9rem 1.1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: inherit;
+  background: #fff;
+  color: #222;
+  resize: none;
+  transition: border 0.2s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border: 1.5px solid #007bff;
+  outline: none;
+}
+
 
 
 
