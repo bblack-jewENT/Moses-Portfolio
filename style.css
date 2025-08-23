@@ -809,6 +809,19 @@ body.dark-mode .portfolio-layer a:hover {
   font-size: 1.1rem;
 }
 
+@media (max-width: 700px) {
+  .contact {
+    padding: 60px 4% 30px 4%;
+  }
+  .contact-form {
+    padding: 1.2rem 0.7rem 1rem 0.7rem;
+  }
+  .contact-form .input-group {
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+}
+
 
 
 
