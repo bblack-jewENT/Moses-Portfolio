@@ -65,4 +65,15 @@ body {
   gap: 2rem;
 }
 
+.navbar a {
+  color: #222;
+  text-decoration: none;
+  font-size: 1rem;
+  position: relative;
+  transition: color 0.2s;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+}
+
+
 
