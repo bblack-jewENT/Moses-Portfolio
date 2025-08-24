@@ -81,6 +81,21 @@ body {
   background: #007bff;
 }
 
+/* Read More Section */
+.readmore-section {
+  padding: 140px 10% 100px 10%;
+  background: #fff;
+  min-height: 90vh;
+}
+
+.readmore-section .about-content {
+  background: #f9f9f9;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+  padding: 2.5rem 2rem 2rem 2rem;
+}
+
+
 
 
 
