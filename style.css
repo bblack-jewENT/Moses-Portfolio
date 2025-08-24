@@ -32,6 +32,16 @@ body {
   border-bottom: 1.5px solid rgba(0,123,255,0.08);
 }
 
+
+/* Glass effect for header in dark mode */
+body.dark-mode .header {
+  background: rgba(34, 40, 49, 0.65) !important;
+  box-shadow: 0 2px 16px rgba(0,216,255,0.10);
+  backdrop-filter: blur(16px) saturate(160%);
+  -webkit-backdrop-filter: blur(16px) saturate(160%);
+  border-bottom: 1.5px solid rgba(0,216,255,0.10);
+}
+
 .logo {
   font-size: 2.1rem;
   font-weight: 900;
