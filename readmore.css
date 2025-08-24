@@ -186,6 +186,23 @@ body {
   }
 }
 
+@media (max-width: 500px) {
+  .header {
+    padding: 10px 2%;
+  }
+  .readmore-section {
+    padding: 70px 1% 10px 1%;
+  }
+  .heading {
+    font-size: 1.3rem;
+  }
+  .btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+  }
+}
+
+
 
 
 
