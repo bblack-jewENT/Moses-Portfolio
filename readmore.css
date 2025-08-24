@@ -49,3 +49,20 @@ body {
   overflow: hidden;
 }
 
+.logo:hover {
+  transform: scale(1.09) rotate(-2deg);
+  box-shadow: 0 6px 24px rgba(0,123,255,0.18);
+  text-shadow: 0 4px 24px #00d8ff55;
+  border-color: #00d8ff;
+  background: linear-gradient(90deg, #00d8ff 60%, #007bff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.navbar {
+  display: flex;
+  gap: 2rem;
+}
+
+
