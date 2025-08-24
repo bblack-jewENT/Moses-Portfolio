@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Lato', 'Roboto', Arial, sans-serif;
+  background: #f5f5f5;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.header {
+  width: 100%;
+  padding: 20px 10%;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.logo {
+  font-size: 2.1rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-family: 'Lato', 'Roboto', Arial, sans-serif;
+  background: linear-gradient(90deg, #007bff 60%, #00d8ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-decoration: none;
+  padding: 0.3rem 1.2rem;
+  border-radius: 18px;
+  box-shadow: 0 2px 16px rgba(0,123,255,0.10);
+  transition: 
+    transform 0.35s cubic-bezier(.4,2,.6,1),
+    box-shadow 0.35s cubic-bezier(.4,2,.6,1),
+    text-shadow 0.35s cubic-bezier(.4,2,.6,1),
+    background 0.35s cubic-bezier(.4,2,.6,1);
+  text-shadow: 0 2px 8px rgba(0,123,255,0.10);
+  cursor: pointer;
+  display: inline-block;
+  border: 2px solid #00d8ff1a;
+  position: relative;
+  overflow: hidden;
+}
+
+.logo:hover {
+  transform: scale(1.09) rotate(-2deg);
+  box-shadow: 0 6px 24px rgba(0,123,255,0.18);
+  text-shadow: 0 4px 24px #00d8ff55;
+  border-color: #00d8ff;
+  background: linear-gradient(90deg, #00d8ff 60%, #007bff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.navbar {
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar a {
+  color: #222;
+  text-decoration: none;
+  font-size: 1rem;
+  position: relative;
+  transition: color 0.2s;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+}
+
+.navbar a.active,
+.navbar a:hover {
+  color: #fff;
+  background: #007bff;
+}
+
+/* Read More Section */
+.readmore-section {
+  padding: 140px 10% 100px 10%;
+  background: #fff;
+  min-height: 90vh;
+}
+
+.readmore-section .about-content {
+  background: #f9f9f9;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+  padding: 2.5rem 2rem 2rem 2rem;
+}
+
+.heading {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.heading span {
+  color: #007bff;
+}
+
+.readmore-section p {
+  font-size: 1.13rem;
+  color: #333;
+  line-height: 1.7;
+  margin-bottom: 1.3rem;
+}
+
+.readmore-section img,
+.readmore-section video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5rem;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(0,123,255,0.08);
+  background: #e3f2fd;
+}
+
+.readmore-section video {
+  max-width: 100%;
+  outline: none;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  background: #007bff;
+  color: #fff;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: background 0.2s, color 0.2s;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #00d8ff;
+  color: #222;
+}
+
+/* Responsive styles */
+@media (max-width: 1100px) {
+  .header, .readmore-section {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+@media (max-width: 900px) {
+  .readmore-section {
+    padding: 120px 4% 60px 4%;
+  }
+  .readmore-section .about-content {
+    padding: 1.5rem 0.7rem 1.2rem 0.7rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 5%;
+  }
+  .navbar {
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .navbar a {
+    font-size: 1.1rem;
+  }
+  .readmore-section {
+    padding: 90px 2% 30px 2%;
+  }
+}
+
+@media (max-width: 500px) {
+  .header {
+    padding: 10px 2%;
+  }
+  .readmore-section {
+    padding: 70px 1% 10px 1%;
+  }
+  .heading {
+    font-size: 1.3rem;
+  }
+  .btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
