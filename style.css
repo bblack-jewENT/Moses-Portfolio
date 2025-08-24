@@ -325,10 +325,10 @@ body {
   align-items: center;
   justify-content: center;
   gap: 3rem;
-  padding: 140px 10% 80px 10%; /* Increased height */
+  padding: 110px 10% 80px 10%; /* Increased height */
   background: #fff;
   flex-wrap: wrap;
-  min-height: 90vh; /* Add more height */
+  min-height: 70vh; /* Add more height */
 }
 
 .about-img {
@@ -888,6 +888,133 @@ body.dark-mode .contact-form .btn:hover {
 
 body.dark-mode .contact-form .btn:active {
   opacity: 0.5 !important;
+}
+
+/* Achievements Section */
+.achievements {
+  background: #fff;
+  padding: 100px 10% 80px 10%;
+  min-height: 60vh;
+}
+
+.achievements .heading {
+  text-align: center;
+  font-size: 2.1rem;
+  margin-bottom: 1.2rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.achievements .heading span {
+  color: #007bff;
+}
+
+.achievements-content > p {
+  text-align: center;
+  font-size: 1.13rem;
+  color: #444;
+  margin-bottom: 2rem;
+}
+
+.certificates-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.certificate-card {
+  background: #f9f9f9;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(0,123,255,0.08);
+  padding: 1.2rem;
+  max-width: 320px;
+  flex: 1 1 260px;
+  text-align: center;
+  transition: transform 0.22s, box-shadow 0.22s;
+  border: 1.5px solid #e3f2fd;
+}
+
+.certificate-card:hover {
+  transform: translateY(-8px) scale(1.04);
+  box-shadow: 0 8px 32px rgba(0,123,255,0.13);
+  border-color: #00d8ff;
+}
+
+.certificate-card img {
+  width: 100%;
+  max-width: 260px;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 8px rgba(0,123,255,0.07);
+  background: #e3f2fd;
+}
+
+.certificate-card h4 {
+  margin-bottom: 0.5rem;
+  color: #007bff;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.certificate-card p {
+  font-size: 0.98rem;
+  color: #555;
+  margin-bottom: 0;
+}
+
+/* Responsive styles */
+@media (max-width: 900px) {
+  .achievements {
+    padding: 70px 4% 30px 4%;
+  }
+  .certificates-list {
+    gap: 1.2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .achievements {
+    padding: 40px 2% 10px 2%;
+  }
+  .certificates-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .certificate-card {
+    width: 100%;
+    max-width: 350px;
+  }
+}
+
+/* Dark mode for achievements */
+body.dark-mode .achievements {
+  background: #222831 !important;
+}
+
+body.dark-mode .achievements .heading,
+body.dark-mode .achievements .heading span {
+  color: #fff !important;
+}
+
+body.dark-mode .certificate-card {
+  background: #232b36 !important;
+  color: #fff !important;
+  border-color: #222831;
+}
+
+body.dark-mode .certificate-card h4 {
+  color: #00d8ff !important;
+}
+
+body.dark-mode .certificate-card p {
+  color: #bbb !important;
+}
+
+body.dark-mode .certificate-card img {
+  background: #232b36 !important;
+  box-shadow: 0 2px 8px rgba(0,216,255,0.10);
 }
 
 
