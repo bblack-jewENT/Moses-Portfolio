@@ -217,6 +217,13 @@ body {
     padding: 0.6rem 1.2rem;
     font-size: 1rem;
   }
+  .slider-container, .slider {
+    max-width: 98vw;
+    height: 180px;
+  }
+  .slide {
+    height: 180px;
+  }
 }
 
 
