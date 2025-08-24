@@ -144,6 +144,12 @@ body {
   cursor: pointer;
 }
 
+.btn:hover {
+  background: #00d8ff;
+  color: #222;
+}
+
+
 
 
 
