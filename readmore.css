@@ -23,3 +23,29 @@ body {
   box-shadow: 0 2px 8px rgba(0,0,0,0.04);
 }
 
+.logo {
+  font-size: 2.1rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-family: 'Lato', 'Roboto', Arial, sans-serif;
+  background: linear-gradient(90deg, #007bff 60%, #00d8ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-decoration: none;
+  padding: 0.3rem 1.2rem;
+  border-radius: 18px;
+  box-shadow: 0 2px 16px rgba(0,123,255,0.10);
+  transition: 
+    transform 0.35s cubic-bezier(.4,2,.6,1),
+    box-shadow 0.35s cubic-bezier(.4,2,.6,1),
+    text-shadow 0.35s cubic-bezier(.4,2,.6,1),
+    background 0.35s cubic-bezier(.4,2,.6,1);
+  text-shadow: 0 2px 8px rgba(0,123,255,0.10);
+  cursor: pointer;
+  display: inline-block;
+  border: 2px solid #00d8ff1a;
+  position: relative;
+  overflow: hidden;
+}
+
