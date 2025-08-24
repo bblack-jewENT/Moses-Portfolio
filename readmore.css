@@ -75,5 +75,12 @@ body {
   border-radius: 8px;
 }
 
+.navbar a.active,
+.navbar a:hover {
+  color: #fff;
+  background: #007bff;
+}
+
+
 
 
