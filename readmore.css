@@ -157,6 +157,16 @@ body {
   }
 }
 
+@media (max-width: 900px) {
+  .readmore-section {
+    padding: 120px 4% 60px 4%;
+  }
+  .readmore-section .about-content {
+    padding: 1.5rem 0.7rem 1.2rem 0.7rem;
+  }
+}
+
+
 
 
 
