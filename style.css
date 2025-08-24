@@ -493,6 +493,7 @@ body {
   bottom: 24px;
   right: 24px;
   background: #fff;
+  border: 2px solid #000;
   border-radius: 24px;
   box-shadow: 0 2px 12px rgba(0,0,0,0.07);
   padding: 0.5rem 1rem;
@@ -509,16 +510,21 @@ body {
 }
 
 .bg-selector select {
-  border: 1px solid #ccc;
+  border: 1px solid #000;
   border-radius: 8px;
+  cursor: pointer;
   padding: 0.2rem 0.7rem;
   font-size: 1rem;
   background: #f5f5f5;
   color: #222;
 }
 
-/* ...Change text color in dark mode... */
+.bg-selector select:focus {
+  border: 1.5px solid #007bff;
+  background: #e3f2fd;
+}
 
+/* ...Change text color in dark mode... */
 body.dark-mode,
 body.dark-mode .home,
 body.dark-mode .skills,
@@ -532,6 +538,10 @@ body.dark-mode .about,
 body.dark-mode .skills,
 body.dark-mode .bg-selector {
   background: #222831 !important;
+}
+
+body.dark-mode .bg-selector {
+  border: 2px solid #007bff;
 }
 
 body.dark-mode .logo,
