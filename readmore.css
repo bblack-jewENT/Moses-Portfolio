@@ -149,6 +149,15 @@ body {
   color: #222;
 }
 
+/* Responsive styles */
+@media (max-width: 1100px) {
+  .header, .readmore-section {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+
 
 
 
