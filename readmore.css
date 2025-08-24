@@ -130,6 +130,20 @@ body {
   outline: none;
 }
 
+.btn {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  background: #007bff;
+  color: #fff;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: background 0.2s, color 0.2s;
+  border: none;
+  cursor: pointer;
+}
+
 
 
 
