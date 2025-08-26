@@ -1069,13 +1069,13 @@ body.dark-mode .certificate-card img {
   gap: 1rem;
 }
 
-.footer-content p {
+/* .footer-content p {
   font-size: 1rem;
   margin: 0;
   letter-spacing: 0.5px;
 }
 
-/* .footer-social {
+ .footer-social {
   display: flex;
   gap: 1.2rem;
   justify-content: center;
