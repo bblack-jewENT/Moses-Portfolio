@@ -1071,7 +1071,17 @@ body.dark-mode .certificate-card img {
 
 .footer-social a:hover {
   color: #fff;
+}
 
+/* Responsive */
+@media (max-width: 700px) {
+  .footer-content {
+    padding: 0 1rem;
+  }
+  .footer-social a {
+    font-size: 1.1rem;
+  }
+}
 
 
 
