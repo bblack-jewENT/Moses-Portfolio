@@ -1052,6 +1052,14 @@ body.dark-mode .certificate-card img {
   align-items: center;
 }
 
+.footer-logo img {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,123,255,0.10);
+  background: #fff;
+}
+
 .footer-content {
   max-width: 900px;
   margin: 0 auto;
@@ -1092,6 +1100,7 @@ body.dark-mode .certificate-card img {
     font-size: 1.1rem;
   }
 }
+
 
 
 
