@@ -1063,6 +1063,17 @@ body.dark-mode .certificate-card img {
   justify-content: center;
 }
 
+.footer-social a {
+  color: #00d8ff;
+  font-size: 1.3rem;
+  transition: color 0.2s;
+}
+
+.footer-social a:hover {
+  color: #fff;
+
+
+
 
 
 
