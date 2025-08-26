@@ -1032,6 +1032,10 @@ body.dark-mode .certificate-card img {
 
 /* Add to style.css for footer styling */
 .footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   background: #000 !important;
   color: #fff;
   padding: 2rem 0 1rem 0;
@@ -1082,6 +1086,7 @@ body.dark-mode .certificate-card img {
     font-size: 1.1rem;
   }
 }
+
 
 
 
