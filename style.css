@@ -561,6 +561,15 @@ body.dark-mode .header {
     padding: 0.2rem 0.6rem;
   }
 
+    @media (max-width: 400px) {
+  .bg-selector {
+    min-width: 120px;
+    padding: 0.4rem 0.4rem;
+    font-size: 0.95rem;
+    gap: 0.3rem;
+  }
+}
+
 
 /* ...Change text color in dark mode... */
 body.dark-mode,
@@ -1139,6 +1148,7 @@ body.dark-mode .certificate-card img {
     margin-bottom: 1rem;
   }
 }
+
 
 
 
