@@ -538,6 +538,30 @@ body.dark-mode .header {
   background: #e3f2fd;
 }
 
+/* Responsive styles for bg-selector */
+@media (max-width: 700px) {
+  .bg-selector {
+    position: fixed;
+    bottom: 16px;
+    right: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0.5rem 0.8rem;
+    font-size: 1rem;
+    border-radius: 16px;
+    gap: 0.5rem;
+    min-width: 180px;
+    max-width: 90vw;
+  }
+  .bg-selector label {
+    font-size: 0.98rem;
+  }
+  .bg-selector select {
+    font-size: 0.98rem;
+    padding: 0.2rem 0.6rem;
+  }
+
+
 /* ...Change text color in dark mode... */
 body.dark-mode,
 body.dark-mode .home,
@@ -1115,6 +1139,7 @@ body.dark-mode .certificate-card img {
     margin-bottom: 1rem;
   }
 }
+
 
 
 
