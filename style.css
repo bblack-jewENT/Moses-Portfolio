@@ -1047,6 +1047,7 @@ body.dark-mode .certificate-card img {
 }
 
 .footer-logo {
+  margin-left: 45px;
   margin-right: 2rem;
   display: flex;
   align-items: center;
@@ -1056,8 +1057,19 @@ body.dark-mode .certificate-card img {
   width: 48px;
   height: 48px;
   border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,123,255,0.10);
-  background: #fff;
+  box-shadow: 0 4px 16px rgba(0,216,255,0.18);
+  background: linear-gradient(135deg, #000 60%, #007bff 100%);
+  border: 2px solid #222;
+  object-fit: cover;
+  transition: box-shadow 0.3s, border 0.3s;
+  /* Add a subtle glow for blending */
+  filter: drop-shadow(0 0 8px #007bff88);
+}
+
+.footer-logo img:hover {
+  box-shadow: 0 8px 32px #00d8ff55;
+  border-color: #00d8ff;
+  filter: drop-shadow(0 0 16px #00d8ff88);
 }
 
 .footer-content {
@@ -1069,7 +1081,7 @@ body.dark-mode .certificate-card img {
   gap: 1rem;
 }
 
-/* .footer-content p {
+.footer-content p {
   font-size: 1rem;
   margin: 0;
   letter-spacing: 0.5px;
@@ -1089,7 +1101,7 @@ body.dark-mode .certificate-card img {
 
 .footer-social a:hover {
   color: #fff;
-} */
+}
 
 /* Responsive */
 @media (max-width: 700px) {
