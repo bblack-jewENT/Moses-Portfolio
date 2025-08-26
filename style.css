@@ -1030,6 +1030,19 @@ body.dark-mode .certificate-card img {
   box-shadow: 0 2px 8px rgba(0,216,255,0.10);
 }
 
+/* Add to style.css for footer styling */
+.footer {
+  background: rgba(34, 40, 49, 0.85);
+  color: #fff;
+  padding: 2rem 0 1rem 0;
+  text-align: center;
+  margin-top: 40px;
+  box-shadow: 0 -2px 16px rgba(0,123,255,0.08);
+  backdrop-filter: blur(8px) saturate(120%);
+  -webkit-backdrop-filter: blur(8px) saturate(120%);
+}
+
+
 
 
 
