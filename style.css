@@ -1046,6 +1046,12 @@ body.dark-mode .certificate-card img {
   -webkit-backdrop-filter: blur(8px) saturate(120%);
 }
 
+.footer-logo {
+  margin-right: 2rem;
+  display: flex;
+  align-items: center;
+}
+
 .footer-content {
   max-width: 900px;
   margin: 0 auto;
@@ -1086,6 +1092,7 @@ body.dark-mode .certificate-card img {
     font-size: 1.1rem;
   }
 }
+
 
 
 
