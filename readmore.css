@@ -341,6 +341,96 @@ body {
   background: #e3f2fd;
 }
 
+/* ...Change text color in dark mode... */
+body.dark-mode,
+body.dark-mode .home,
+body.dark-mode .skills,
+body.dark-mode .about {
+  color: #fff;
+  background: #222831 !important;
+}
+
+body.dark-mode .header,
+body.dark-mode .about,
+body.dark-mode .skills,
+body.dark-mode .bg-selector {
+  background: #222831 !important;
+}
+
+body.dark-mode .bg-selector {
+  border: 2px solid #007bff;
+}
+
+body.dark-mode .logo,
+body.dark-mode .navbar a,
+body.dark-mode .about-content h3,
+body.dark-mode .about-content .heading,
+body.dark-mode .skills .heading,
+body.dark-mode .skill-box h3,
+body.dark-mode .skill-box p,
+body.dark-mode .btn,
+body.dark-mode .bg-selector label {
+  color: #fff !important;
+}
+
+body.dark-mode .navbar a.active,
+body.dark-mode .navbar a:hover {
+  color: #00d8ff !important;
+}
+
+body.dark-mode .skill-box {
+  background: #232b36 !important;
+  color: #fff !important;
+}
+
+body.dark-mode .btn {
+  background: rgb(1, 55, 73) !important;
+  color: #fff !important;
+}
+
+body.dark-mode .btn:hover {
+  background: #fff !important;
+  color: #222831 !important;
+}
+
+body.dark-mode .bg-selector select {
+  background: #232b36 !important;
+  color: #fff !important;
+  border-color: #444;
+}
+
+body.dark-mode p,
+body.dark-mode .about-content p,
+body.dark-mode .home-content p,
+body.dark-mode .skill-box p {
+  color: #fff !important;
+}
+
+body.dark-mode .menu-icon {
+  color: #fff !important; /* White hamburger in dark mode */
+}
+
+/* Navbar link background and text color in dark mode */
+body.dark-mode .navbar a {
+  background: rgb(1, 55, 73) !important;
+  color: #fff !important;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+  transition: background 0.2s, color 0.2s;
+}
+
+body.dark-mode .navbar a.active,
+body.dark-mode .navbar a:hover {
+  background: #2c7a88 !important; /* Highlight background */
+  color: #222 !important;         /* Black text */
+  font-weight: bold !important;
+}
+
+body.dark-mode .multiple-text {
+  color: #fff !important;
+}
+
 
 
 
