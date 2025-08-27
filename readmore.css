@@ -216,7 +216,7 @@ body {
   color: #fff;
 }
 
-/* Add to readmore.css for hamburger styling and mobile nav */
+/* Hamburger menu icon */
 .menu-icon {
   display: none;
   font-size: 2rem;
@@ -226,37 +226,59 @@ body {
   margin-left: 1rem;
 }
 
+/* Mobile navigation styles */
 @media (max-width: 700px) {
+  .header {
+    position: relative;
+  }
   .menu-icon {
     display: block;
     position: absolute;
     top: 22px;
-    right: 5vw;
+    right: 90px;
+    z-index: 201;
   }
   .navbar {
-    position: absolute;
+    position: fixed;
     top: 70px;
     right: 0;
+    left: 0;
     width: 100vw;
     background: #fff;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: stretch;
     gap: 0;
     display: none;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-    padding: 1rem 5vw;
-    z-index: 150;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 0.5rem 0;
+    z-index: 200;
+    border-radius: 0 0 16px 16px;
   }
   .navbar.active {
     display: flex;
   }
   .navbar a {
     width: 100%;
-    padding: 1rem 0;
+    padding: 1rem 2rem;
     border-bottom: 1px solid #eee;
     font-size: 1.1rem;
     color: #222;
     background: transparent;
+    text-align: left;
+    border-radius: 0;
+    margin: 0;
+    transition: background 0.2s, color 0.2s;
+  }
+  .navbar a:last-child {
+    border-bottom: none;
+  }
+}
+
+/* Even smaller screens */
+@media (max-width: 500px) {
+  .navbar a {
+    padding: 1rem 1rem;
+    font-size: 1rem;
   }
 }
 
