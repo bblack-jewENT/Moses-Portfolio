@@ -236,8 +236,8 @@ body {
 }
 
 .footer-logo {
-  margin-left: 45px;
-  margin-right: 2rem;
+  margin-left: auto;
+  margin-right: 0;
   display: flex;
   align-items: center;
 }
@@ -268,6 +268,7 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 1rem;
+  position: relative;
 }
 
 .footer-content p {
@@ -280,6 +281,9 @@ body {
   display: flex;
   gap: 1.2rem;
   justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
 }
 
 .footer-social a {
@@ -298,9 +302,16 @@ body {
     flex-direction: column;
     align-items: center;
   }
+
+  .footer-social {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
   .footer-logo {
-    margin-right: 0;
-    margin-bottom: 1rem;
+    margin-left: 0;
+    margin-top: 1rem;
+    justify-content: center;
   }
 }
 
