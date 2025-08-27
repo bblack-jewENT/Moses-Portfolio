@@ -217,16 +217,6 @@
           </select>
     </div>
 
-      <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-      <script src="/script.js"></script>
-      <script>
-          // Clear contact form after submit
-          document.getElementById('contact-form').addEventListener('submit', function(e) {
-            setTimeout(() => {
-              this.reset();
-            }, 100); // Wait a bit for Formspree to process
-          });
-      </script>
       <footer class="footer">
           <div class="footer-logo">
                <img src="images/favicon-logo.png" alt="Moses Rametsi Logo">
@@ -241,10 +231,19 @@
               <a href="https://github.com/bblack-jewENT" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
               <a href="https://www.instagram.com/mo.ses_themessiah/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
            </div>
-          
           </div>
-          
       </footer>
+
+      <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+      <script src="/script.js"></script>
+      <script>
+          // Clear contact form after submit
+          document.getElementById('contact-form').addEventListener('submit', function(e) {
+            setTimeout(() => {
+              this.reset();
+            }, 100); // Wait a bit for Formspree to process
+          });
+      </script>
       
   </body>
 </html>
