@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header" style="position: relative;">
         <a class="footer-logo header-logo" href="index.html#home">
             <img src="images/favicon-logo.png" alt="Moses Rametsi Logo">
         </a>
@@ -112,16 +112,15 @@
         document.body.classList.remove('dark-mode');
         }
     });
-    
 
-        // Hamburger menu toggle for mobile
-        const menuIcon = document.getElementById('menu-icon');
-        const navbar = document.querySelector('.navbar');
-        menuIcon.addEventListener('click', () => {
-            navbar.classList.toggle('active');
-        });
-
+    // Hamburger menu toggle for mobile
+    const menuIcon = document.getElementById('menu-icon');
+    const navbar = document.querySelector('.navbar');
+    menuIcon.addEventListener('click', () => {
+        navbar.classList.toggle('active');
+    });
     </script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
 </body>
 </html>
