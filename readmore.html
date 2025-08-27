@@ -112,6 +112,15 @@
         document.body.classList.remove('dark-mode');
         }
     });
+    
+
+        // Hamburger menu toggle for mobile
+        const menuIcon = document.getElementById('menu-icon');
+        const navbar = document.querySelector('.navbar');
+        menuIcon.addEventListener('click', () => {
+            navbar.classList.toggle('active');
+        });
+
     </script>
 
 </body>
