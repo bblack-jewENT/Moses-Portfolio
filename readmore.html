@@ -92,7 +92,22 @@
           </div>
       </footer>
 
-      <script src="script.js"></script>
+    <script>
+    // Background color selector logic for readmore.html
+    const bgSelector = document.getElementById('bg-color');
+    bgSelector.addEventListener('change', function() {
+        document.body.style.background = this.value;
+        // Optionally update section backgrounds for full effect
+        document.querySelectorAll('.readmore-section').forEach(el => el.style.background = this.value);
+
+        // Dark mode toggle for black background
+        if (this.value === '#222831' || this.value === 'rgb(34, 40, 49)') {
+        document.body.classList.add('dark-mode');
+        } else {
+        document.body.classList.remove('dark-mode');
+        }
+    });
+    </script>
 
 </body>
 </html>
