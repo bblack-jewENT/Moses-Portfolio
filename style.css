@@ -1073,6 +1073,13 @@ body.dark-mode .certificate-card img {
   margin-bottom: 2rem;
 }
 
+.footer-contact h4,
+.footer-services h4 {
+  font-size: 1.15rem;
+  margin-bottom: 1rem;
+  color: #00d8ff;
+  letter-spacing: 1px;
+}
 
 
 
