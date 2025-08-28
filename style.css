@@ -1063,6 +1063,16 @@ body.dark-mode .certificate-card img {
   z-index: 10;
 }
 
+/* Footer columns */
+.footer-contact,
+.footer-services,
+.footer-content {
+  flex: 1 1 220px;
+  min-width: 200px;
+  max-width: 320px;
+  margin-bottom: 2rem;
+}
+
 
 
 
