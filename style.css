@@ -1042,6 +1042,26 @@ body.dark-mode .certificate-card img {
 }
 
 /* Add to style.css for footer styling */
+.footer {
+  width: 100%;
+  background: #000 !important;
+  color: #fff;
+  padding: 3rem 0 2rem 0;
+  text-align: left;
+  margin-top: 40px;
+  box-shadow: 0 -2px 16px rgba(0,123,255,0.08);
+  backdrop-filter: blur(8px) saturate(120%);
+  -webkit-backdrop-filter: blur(8px) saturate(120%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  position: relative;
+  left: 0;
+  right: 0;
+  clear: both;
+  z-index: 10;
+}
 
 
 
