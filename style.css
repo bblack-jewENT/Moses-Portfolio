@@ -1081,6 +1081,17 @@ body.dark-mode .certificate-card img {
   letter-spacing: 1px;
 }
 
+.footer-contact p,
+.footer-services p {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  color: #eee;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+
 
 
 
