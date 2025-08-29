@@ -1106,6 +1106,14 @@ body.dark-mode .certificate-card img {
   margin-bottom: 0;
 }
 
+.footer-content p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.5px;
+  color: #bbb;
+}
+
+
 
 
 
