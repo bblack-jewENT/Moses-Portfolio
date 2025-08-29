@@ -1091,6 +1091,17 @@ body.dark-mode .certificate-card img {
   gap: 0.5rem;
 }
 
+.footer-contact a {
+  color: #fff;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.footer-contact a:hover {
+  color: #00d8ff;
+}
+
+
 
 
 
