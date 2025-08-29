@@ -1113,6 +1113,14 @@ body.dark-mode .certificate-card img {
   color: #bbb;
 }
 
+.footer-social {
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+
 
 
 
