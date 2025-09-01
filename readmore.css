@@ -573,6 +573,12 @@ body.dark-mode .footer {
   color: #fff !important;
 }
 
+body.dark-mode .footer-contact h4,
+body.dark-mode .footer-services h4 {
+  color: #00d8ff !important;
+}
+
+
 
 
 
