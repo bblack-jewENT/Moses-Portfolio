@@ -587,6 +587,14 @@ body.dark-mode .footer-content p {
   color: #bbb !important;
 }
 
+body.dark-mode .footer-social a {
+  color: #00d8ff !important;
+}
+
+body.dark-mode .footer-social a:hover {
+  color: #fff !important;
+}
+
 
 
 
