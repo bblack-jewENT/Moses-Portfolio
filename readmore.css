@@ -475,7 +475,8 @@ body.dark-mode .header {
 body.dark-mode,
 body.dark-mode .home,
 body.dark-mode .skills,
-body.dark-mode .about {
+body.dark-mode .about
+body.dark-mode footer {
   color: #fff;
   background: #222831 !important;
 }
