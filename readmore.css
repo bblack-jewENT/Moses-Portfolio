@@ -212,7 +212,12 @@ body.dark-mode .header {
   text-align: left;
   gap: 1rem;
   margin: auto;
-  margin-bottom: 75px;
+  padding-bottom: 60px;
+}
+
+.footer-services {
+  margin-left: 15px;
+  padding: 20px 0;
 }
 
 .footer-contact h4,
@@ -344,6 +349,9 @@ body.dark-mode .header {
     margin-right: 0;
     margin-bottom: 1rem;
   }
+  .footer-service {
+    margin-bottom: 75px;
+  }
 }
 
 /* Responsive styles */
@@ -402,6 +410,9 @@ body.dark-mode .header {
   }
   .heading {
     font-size: 1.3rem;
+  }
+  .readmore-section p {
+    font-size: 1rem;
   }
   .btn {
     padding: 0.6rem 1.2rem;
