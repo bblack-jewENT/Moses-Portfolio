@@ -209,7 +209,7 @@ body.dark-mode .header {
 }
 
 .footer-contact {
-  align-items: center;
+  text-align: left;
   gap: 1rem;
   margin: auto;
   margin-bottom: 75px;
@@ -217,14 +217,32 @@ body.dark-mode .header {
 
 .footer-contact h4,
 .footer-services h4 {
+  font-size: 1.15rem;
+  margin-bottom: 1rem;
   color: #00d8ff;
-  font-size: 20px;
+  letter-spacing: 1px;
+  text-align: left;
 }
 
 .footer-content p {
   font-size: 1rem;
-  margin: 0;
+  margin-bottom: 1rem;
   letter-spacing: 0.5px;
+  color: #bbb;
+}
+
+/* .footer-contact p,
+.footer-services p {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  color: #eee;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+} */
+
+.footer-services p {
+  text-align: left;
 }
 
  .footer-social {
@@ -237,6 +255,7 @@ body.dark-mode .header {
   color: #00d8ff;
   font-size: 1.3rem;
   transition: color 0.2s;
+  margin-bottom: 120px;
 }
 
 .footer-social a:hover {
