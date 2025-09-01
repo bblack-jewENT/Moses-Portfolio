@@ -1046,7 +1046,7 @@ body.dark-mode .certificate-card img {
 /* Add to style.css for footer styling */
 .footer {
   width: 100%;
-  background: #000 !important;
+  background: #111 !important;
   color: #fff;
   padding: 3rem 0 2rem 0;
   text-align: left;
