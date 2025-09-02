@@ -760,6 +760,22 @@ body.dark-mode .multiple-text {
   }
 }
 
+/* Ensure project link is always visible in projects-layer on small screens */
+@media (max-width: 700px) {
+  .projects-layer {
+    opacity: 1 !important;
+    transform: translateY(0) scale(1) !important;
+    transition: opacity 0.7s, transform 0.7s;
+    pointer-events: auto;
+  }
+  .projects-layer a {
+    display: inline-block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    pointer-events: auto !important;
+  }
+}
+
 body.dark-mode .projects {
   background: #222831 !important;
 }
@@ -1213,6 +1229,7 @@ body.dark-mode .certificate-card img {
     padding: 10px 5vw;
   }
 }
+
 
 
 
