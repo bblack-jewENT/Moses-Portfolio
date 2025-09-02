@@ -329,6 +329,11 @@ body.dark-mode .header {
 
 /* Even smaller screens */
 @media (max-width: 500px) {
+   .header {
+    width: 95%;
+    position: relative;
+  }
+
   .navbar a {
     padding: 1rem 1rem;
     font-size: 1rem;
@@ -404,6 +409,8 @@ body.dark-mode .header {
 @media (max-width: 500px) {
   .header {
     padding: 10px 2%;
+    max-width: 95%;
+    width: 95%;
   }
   .readmore-section {
     padding: 70px 1% 10px 1%;
