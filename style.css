@@ -763,7 +763,7 @@ body.dark-mode .multiple-text {
 /* Ensure project link is always visible in projects-layer on small screens */
 @media (max-width: 700px) {
   .projects-layer {
-    opacity: 1 !important;
+    opacity: 0.8 !important;
     transform: translateY(0) scale(1) !important;
     transition: opacity 0.7s, transform 0.7s;
     pointer-events: auto;
