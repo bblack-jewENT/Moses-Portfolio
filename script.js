@@ -1,13 +1,4 @@
 
-
-// Navbar toggle for mobile
-const menuIcon = document.getElementById('menu-icon');
-const navbar = document.getElementById('navbar');
-
-menuIcon.addEventListener('click', () => {
-    navbar.classList.toggle('active');
-});
-
 // Highlight navbar link based on scroll position
 const sections = document.querySelectorAll('section');
 const navLinks = document.querySelectorAll('.navbar a');
