@@ -673,43 +673,9 @@ body.dark-mode .multiple-text {
   box-shadow: 0 4px 24px rgba(0,0,0,0.08);
   background: #f5f5f5;
   transition: transform 0.2s;
-}
-
-/* Initial hidden state for projects-box and projects-layer */
-.projects-box,
-.projects-layer {
-  opacity: 0;
-  transform: translateY(40px) scale(0.95);
-  transition: opacity 0.7s cubic-bezier(.4,2,.6,1), transform 0.7s cubic-bezier(.4,2,.6,1);
-}
-
-/* When in view, pop up */
-.projects-box.in-view,
-.projects-box.in-view .projects-layer {
-  opacity: 1;
-  transform: translateY(0) scale(1);
-}
-
-/* On larger screens, keep hover effect for projects-layer */
-@media (min-width: 701px) {
-  .projects-layer {
-    opacity: 0;
-    transform: translateY(40px) scale(0.95);
-    transition: opacity 0.3s, transform 0.3s;
-  }
-  .projects-box:hover .projects-layer {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-  }
-}
-
-/* On smaller screens, always show projects-layer when in view */
-@media (max-width: 700px) {
-  .projects-layer {
-    opacity: 1 !important;
-    transform: translateY(0) scale(1) !important;
-    transition: opacity 0.7s, transform 0.7s;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .projects-box:hover {
