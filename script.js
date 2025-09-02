@@ -1,10 +1,4 @@
-let typed = new Typed(".multiple-text", {
-    strings: ["Front-end Developer", "Videographer", "Photographer"],
-    typeSpeed: 100,
-    backSpeed: 100,
-    backDelay: 1000,
-    loop: true
-});
+
 
 // Navbar toggle for mobile
 const menuIcon = document.getElementById('menu-icon');
@@ -36,20 +30,7 @@ window.addEventListener('scroll', () => {
   });
 });
 
- // Background color selector logic
-  const bgSelector = document.getElementById('bg-color');
-  bgSelector.addEventListener('change', function() {
-    document.body.style.background = this.value;
-    // Optionally, update .home and .skills backgrounds for full effect
-    document.querySelectorAll('.home, .skills').forEach(el => el.style.background = this.value);
-
-    // Detect dark mode and switch text colors
-    if (this.value === '#222831') {
-      document.body.classList.add('dark-mode');
-    } else {
-      document.body.classList.remove('dark-mode');
-    }
-  });
+ 
 
 
   
